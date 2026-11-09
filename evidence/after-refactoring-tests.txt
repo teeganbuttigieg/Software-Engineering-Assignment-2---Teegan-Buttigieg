@@ -1,0 +1,31 @@
+test_invalid_requests_raise_and_leave_saved_state_unchanged (test_safety_net.SafetyNetTests.test_invalid_requests_raise_and_leave_saved_state_unchanged) ... ok
+test_quote_does_not_save_or_reserve_and_matches_placement (test_safety_net.SafetyNetTests.test_quote_does_not_save_or_reserve_and_matches_placement) ... ok
+test_student_discount_starts_at_exactly_5000_cents (test_safety_net.SafetyNetTests.test_student_discount_starts_at_exactly_5000_cents) ... 
+  test_student_discount_starts_at_exactly_5000_cents (test_safety_net.SafetyNetTests.test_student_discount_starts_at_exactly_5000_cents) (operation='quote') ... FAIL
+  test_student_discount_starts_at_exactly_5000_cents (test_safety_net.SafetyNetTests.test_student_discount_starts_at_exactly_5000_cents) (operation='place_order') ... FAIL
+test_valid_delivery_order_updates_stock_and_history (test_safety_net.SafetyNetTests.test_valid_delivery_order_updates_stock_and_history) ... ok
+test_cancel_order_restores_stock (test_smoke.OrderSmokeTests.test_cancel_order_restores_stock) ... ok
+test_order_can_be_reopened (test_smoke.OrderSmokeTests.test_order_can_be_reopened) ... ok
+test_regular_pickup_quote (test_smoke.OrderSmokeTests.test_regular_pickup_quote) ... ok
+test_student_delivery_quote (test_smoke.OrderSmokeTests.test_student_delivery_quote) ... ok
+
+======================================================================
+FAIL: test_student_discount_starts_at_exactly_5000_cents (test_safety_net.SafetyNetTests.test_student_discount_starts_at_exactly_5000_cents) (operation='quote')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/43880a136d04/task4/COMP3415-A2-Campus-Supply-Desk-main/tests/test_safety_net.py", line 37, in test_student_discount_starts_at_exactly_5000_cents
+    self.assertEqual(result["discount_cents"], 500)
+AssertionError: 0 != 500
+
+======================================================================
+FAIL: test_student_discount_starts_at_exactly_5000_cents (test_safety_net.SafetyNetTests.test_student_discount_starts_at_exactly_5000_cents) (operation='place_order')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/43880a136d04/task4/COMP3415-A2-Campus-Supply-Desk-main/tests/test_safety_net.py", line 37, in test_student_discount_starts_at_exactly_5000_cents
+    self.assertEqual(result["discount_cents"], 500)
+AssertionError: 0 != 500
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.005s
+
+FAILED (failures=2)

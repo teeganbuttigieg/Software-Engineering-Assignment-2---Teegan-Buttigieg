@@ -1,0 +1,15 @@
+test_cli_defaults_help_and_invalid_fulfillment (tests.test_express.ExpressTests.test_cli_defaults_help_and_invalid_fulfillment) ... ok
+test_cli_express_quote_and_place (tests.test_express.ExpressTests.test_cli_express_quote_and_place) ... ok
+test_express_invalid_requests_preserve_saved_state (tests.test_express.ExpressTests.test_express_invalid_requests_preserve_saved_state) ... ok
+test_express_lifecycle_preserves_snapshot_stock_history_and_ids (tests.test_express.ExpressTests.test_express_lifecycle_preserves_snapshot_stock_history_and_ids) ... ok
+test_express_never_free_and_standard_and_pickup_unchanged (tests.test_express.ExpressTests.test_express_never_free_and_standard_and_pickup_unchanged) ... ok
+test_menu_defaults_and_declined_express_order (tests.test_express.ExpressTests.test_menu_defaults_and_declined_express_order) ... ok
+test_menu_express_quote_and_confirmed_placement (tests.test_express.ExpressTests.test_menu_express_quote_and_confirmed_placement) ... ok
+test_regular_express_example (tests.test_express.ExpressTests.test_regular_express_example) ... ok
+test_student_example_quote_and_placement_match (tests.test_express.ExpressTests.test_student_example_quote_and_placement_match) ... ok
+test_student_half_cent_rounding_and_merchandise_only_discount (tests.test_express.ExpressTests.test_student_half_cent_rounding_and_merchandise_only_discount) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.016s
+
+OK
